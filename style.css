@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('temp/wallpaper.png'); /* Ruta a tu imagen de fondo */
+      background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */
+      background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza la página */
+    
+}
+
+header {
+    background: linear-gradient(to right, #06AAF4, #ffffff);
+    color: white;
+    padding: 10px 20px;
+}
+
+.company-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: rgba(91, 183, 222, 0.5);
+    border-radius: 15px ;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-carrusel {
+    border-radius: 15px ;
+
+}
+
+.carousel-item img {
+    border-radius: 15px; /* Aplica un radio de borde específico a las imágenes del carrusel */
+}
+
+.custom-toggler {
+    color: white; /* Establece el color del texto en blanco */
+}
+
+
