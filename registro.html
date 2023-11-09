@@ -40,52 +40,76 @@
             </div>
           </nav>
     </header>
-    <br><br>
+
     <div class="container mt-5">
-        <div class="row justify-content-center">
+        <div class="row">
+            <!-- Carrusel a la izquierda -->
+            <div class="col-md-6">
+                <div class="card-carrusel">
+                <div id="miCarrusel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="temp/carrusel1.jpg" class="d-block w-100" alt="Slide 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="temp/carrusel2.jpg" class="d-block w-100" alt="Slide 2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="temp/carrusel3.jpg" class="d-block w-100" alt="Slide 3">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Siguiente</span>
+                    </a>
+                    <br>
+                    <br>
+                    <ol class="carousel-indicators">
+                        <li data-target="#miCarrusel" data-slide-to="0" class="active"></li>
+                        <li data-target="#miCarrusel" data-slide-to="1"></li>
+                        <li data-target="#miCarrusel" data-slide-to="2"></li>
+                    </ol>
+                  </div>
+                </div>
+                <br>
+                <br>
+                
+            </div>
+            <!-- Tarjeta a la derecha -->
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
                         <br>
-                        <h5 class="card-title">Reservar Hora</h5>
+                        <h5 class="card-title" style="font-size: 35px;" >Iniciar Sesión</h5>
+                        <br><br><br>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="input1" placeholder="Correo electrónico">
+                        </div>
                         <br>
                         <div class="form-group">
-                            <select class="form-control" id="select1" >
-                                <option value="" disabled selected>Seleccione especialidad</option>
-                                <option value="opcion1">Medicina General</option>
-                                <option value="opcion2">Pediatría</option>
-                                <option value="opcion3">Traumatología</option>
-                            </select>
+                            <input type="text" class="form-control" id="input2" placeholder="Contraseña">
                         </div>
                         <div class="form-group">
-    
-                            <select class="form-control" id="select2">
-                                <option value="" disabled selected>Seleccione médico</option>
-                                <option value="opcion1">J. Álvarez</option>
-                                <option value="opcion2">L. Benegas</option>
-                                <option value="opcion3">C. Carmona</option>
-                            </select>
+                            <a href="recuperar.html" class="boton">¿Olvidaste tu contraseña?</a>
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="datePicker">Fecha</label>
-                                <input type="date" class="form-control" id="datePicker">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="hourPicker">Hora</label>
-                                <input type="time" class="form-control" id="hourPicker" step="1800">
-                            </div>
-                        </div>
-                        <br>
-                        <button type="button" class="btn btn-primary">Enviar</button>
-                        <a class="btn btn-primary" href="reservas.html" role="button">Mis horas</a>
                     </div>
+                    <a type="button" class="btn btn-primary" href="home.html"style="margin: auto;">INGRESAR</a>
+                    <br><br><br>
                 </div>
+                
             </div>
+            
         </div>
     </div>
+
     <!-- Scripts de Bootstrap (jQuery y Popper.js) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
 </body>
+</html>

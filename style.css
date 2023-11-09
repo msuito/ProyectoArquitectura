@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #06AAF4, #ffffff);
+    background: linear-gradient(to right, #007ab3, #ffffff);
     color: white;
     padding: 10px 20px;
 }
@@ -38,6 +38,7 @@ header {
 
 .custom-toggler {
     color: white; /* Establece el color del texto en blanco */
+    font-size: 24px;
 }
 
 
