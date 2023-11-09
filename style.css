@@ -41,4 +41,9 @@ header {
     font-size: 24px;
 }
 
+.logo {
+    color: white; /* Establece el color del texto en blanco */
+    font-size: 30px;
+    font-weight: bold;
+}
 

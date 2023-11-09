@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand custom-toggler" href="home.html">CeMeGal</a>
+                <a class="navbar-brand logo" href="home.html">CeMeGal</a>
               <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -84,27 +84,25 @@
                 <div class="card">
                     <div class="card-body">
                         <br>
-                        <h5 class="card-title" style="font-size: 35px;" >Iniciar Sesión</h5>
-                        <br><br><br>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="input1" placeholder="Correo electrónico">
-                        </div>
-                        <br>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="input2" placeholder="Contraseña">
-                        </div>
-                        <div class="form-group">
-                            <a href="recuperar.html" class="boton">¿Olvidaste tu contraseña?</a>
-                        </div>
-                    </div>
-                    <a type="button" class="btn btn-primary" href="home.html"style="margin: auto;">INGRESAR</a>
-                    <br><br><br>
-                </div>
-                
-            </div>
-            
-        </div>
-    </div>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nombres</label>
+                                <input class="form-control" type="text" aria-label="default input example">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Apellidos</label>
+                                <input class="form-control" type="text" aria-label="default input example">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Crear una contraseña</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Registrarse</button>
+                          </form>
 
     <!-- Scripts de Bootstrap (jQuery y Popper.js) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
